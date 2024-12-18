@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App API</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div id="search">
+            <!-- <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="" srcset=""> -->
+            <input id="input" type="text" placeholder="Enter city name">
+            <div class="iconbox">
+            <button id="btn2" ><i class="bi bi-x"></i></button>
+            <button id="btn1"><i class="bi bi-search"></i></button>
+        </div>
+        </div>
+        <h3> Results for <span id="result">City</span></h3>
+       
+        <div id="container">
+           
+            <div id="top">
+                <div id="left">
+                    <img id="imgtemp" src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="">
+                    <h1 id="temp">Temp&nbsp;&deg;C </h1>
+                    <div id="leftbox">
+                        <p>Precipitation: <span id="prec">0%</span></p>
+                        <p>Humidity : <span id="humi">30%</span></p>
+                        <p>Wind: <span id="wind">8km/h</span> </p>
+                    </div>
+                </div>
+                <div id="right">
+                    <h1>weather</h1>
+                    <p id="daytime">Monday, 1:00pm</p>
+                    <p>Sunny</p>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="box1">
+                  <div id="day1"></div>
+                  <div id="img1"></div>
+                  <div id="temp1"></div>
+                </div>
+                <div class="box1">
+                  <div id="day2"></div>
+                  <div id="img2"></div>
+                  <div id="temp2"></div>
+                </div>
+                <div class="box1">
+                  <div id="day3"></div>
+                  <div id="img3"></div>
+                  <div id="temp3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h3{
+    margin-block: 20px;
+    border: none;
+}
+#result{
+    border: none;
+}
+
+#search{
+width:50% ;
+border: 1px solid gray;
+border-radius: 15px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-inline: 20px;
+margin-top: 2rem;
+justify-content: space-between;
+background-color: white;
+border: none;
+-webkit-box-shadow: 10px 14px 18px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 14px 18px -5px rgba(0,0,0,0.75);
+box-shadow: 10px 14px 18px -5px rgba(0,0,0,0.75);
+padding-block: 5px;
+}
+
+.iconbox{
+    border: none;
+}
+
+
+button{
+    background-color: white;
+    border: none;
+}
+i{
+    border: none;
+    font-size: 25px;
+    color: gray;
+}
+
+
+input{
+    border: none;
+    width: 70%;
+    outline: none;
+    font-size: 1rem;
+    background-color: white;
+}
+
+#result{
+    margin-block: 15px;
+}
+
+#container{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#top{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#left{
+    width: auto;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 1rem;
+
+border: none;
+}
+
+
+
+#imgtemp, #temp{
+    border: none;
+}
+#leftbox, #prec, #humi, #wind{
+    border: none;
+    
+}
+p{
+    border: none;
+}
+h1{
+    border: none;
+    text-transform: capitalize;
+}
+
+#right{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+ 
+}
+
+#bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media (max-width:560px) {
+    #left{
+        width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+    }
+    #right{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        text-align: center;
+   
+    }
+    
+
+}
